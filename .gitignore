@@ -1,0 +1,25 @@
+# Secrets and credentials
+secrets/
+*.key
+*.pem
+*service-account*.json
+
+# Environment variables
+.env
+.env.local
+
+# Docker
+.docker/
+
+# Go
+/backend/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Mac
+.DS_Store
